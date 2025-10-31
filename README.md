@@ -117,7 +117,18 @@ Apache 2.0 for software + community governance for cultural content
     </script>
 </body>
 </html>
+## 🌍 Live Demo - Runs Anywhere
 
+**Experience cultural sovereignty in action:**
+
+[**⬇️ Download AI_as_Kin_Demo.html**](https://raw.githubusercontent.com/smedum/AI_as_Kin/main/demos/cultural-sovereignty/AI_as_Kin_Demo.html)
+
+- ✅ **Single HTML file** - no installation needed
+- ✅ **Works offline** - perfect for rural communities  
+- ✅ **Runs on any device** - phones, laptops, tablets
+- ✅ **Zero dependencies** - just double-click and go
+
+*Test cryptographic FPIC, cultural boundaries, and sovereignty enforcement instantly!*
 ---
 
 *Developed by Paul Anderson (smeddum.blog) with DeepSeek research assistance*
