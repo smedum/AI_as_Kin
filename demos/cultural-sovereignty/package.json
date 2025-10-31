@@ -1,0 +1,18 @@
+{
+  "name": "kincentric-ai",
+  "version": "1.0.0",
+  "description": "Cultural Sovereignty Demo - Relational AI for Indigenous Knowledge Protection",
+  "main": "demos/cultural-sovereignty/sovereignty-engine.js",
+  "scripts": {
+    "demo": "node demos/cultural-sovereignty/sovereignty-engine.js",
+    "dev": "python -m http.server 8000",
+    "test": "node tests/sovereignty-test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "crypto-js": "^4.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  }
+}
