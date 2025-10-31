@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI_as_Kin - Cultural Sovereignty</title>
+    <style>
+        body { font-family: Arial; margin: 40px; background: #f0f8ff; }
+        .demo { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; }
+        button { background: #2e8b57; color: white; padding: 10px 15px; border: none; border-radius: 4px; margin: 5px; }
+        .log { background: #f5f5f5; padding: 15px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <h1>🛡️ AI_as_Kin - Cultural Sovereignty Demo</h1>
+    
+    <div class="demo">
+        <h3>🎮 Interactive Sovereignty Simulation</h3>
+        <button onclick="testAccess()">🔒 Test Knowledge Access</button>
+        <button onclick="grantConsent()">📝 Grant FPIC Consent</button>
+        <button onclick="showArchitecture()">🏗️ View Architecture</button>
+    </div>
+
+    <div class="demo">
+        <h3>📊 Live Protection Log</h3>
+        <div id="log" class="log">Cultural sovereignty system ready. Click buttons to test protection...</div>
+    </div>
+
+    <script>
+        function log(msg, type = 'info') {
+            const logDiv = document.getElementById('log');
+            const color = type === 'error' ? 'color: #dc143c' : type === 'success' ? 'color: #2e8b57' : '';
+            logDiv.innerHTML = `<div style="${color}">[${new Date().toLocaleTimeString()}] ${msg}</div>` + logDiv.innerHTML;
+        }
+
+        function testAccess() {
+            log('🚪 Attempting to access sacred planting calendar...');
+            setTimeout(() => log('❌ ACCESS DENIED: Missing cryptographic FPIC signature', 'error'), 800);
+            setTimeout(() => log('🛡️ Sovereignty boundary enforced - Knowledge protected', 'success'), 1200);
+        }
+
+        function grantConsent() {
+            log('👑 Community elders reviewing request...');
+            setTimeout(() => log('✅ FPIC consent cryptographically signed', 'success'), 600);
+            setTimeout(() => log('🔐 Knowledge access now permitted with conditions', 'success'), 1200);
+        }
+
+        function showArchitecture() {
+            log('🏛️ Architecture: Governance-First Primitives');
+            log('   • Cryptographic FPIC Verification');
+            log('   • Cultural Boundary Enforcement');
+            log('   • HSM Community Key Custody');
+            log('   • Relational Loss Functions');
+        }
+    </script>
+</body>
+</html>
