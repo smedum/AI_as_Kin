@@ -1,0 +1,37 @@
+{
+  "knowledgeBase": {
+    "sacred_planting_calendar": {
+      "id": "sacred_planting_calendar",
+      "type": "sacred_knowledge",
+      "title": "Sacred Seasonal Planting Calendar",
+      "description": "Traditional Baiga planting times based on celestial observations and ecological signs",
+      "content": "The forest tells us when to plant... [encrypted knowledge]",
+      "culturalSignificance": "Connects agricultural practice to spiritual beliefs",
+      "accessLevel": "restricted",
+      "requiresFPIC": true,
+      "boundaryType": "sacred_calendar"
+    },
+    "traditional_seed_varieties": {
+      "id": "traditional_seed_varieties",
+      "type": "biodiversity_knowledge",
+      "title": "Heritage Seed Varieties and Their Stories",
+      "description": "62 traditional crop varieties with their cultivation methods and cultural stories",
+      "content": "Each seed carries the memory of our ancestors... [encrypted knowledge]",
+      "culturalSignificance": "Food sovereignty and cultural identity",
+      "accessLevel": "conditional",
+      "requiresFPIC": true,
+      "boundaryType": "seed_knowledge"
+    },
+    "forest_medicine_plants": {
+      "id": "forest_medicine_plants",
+      "type": "medicinal_wisdom",
+      "title": "Healing Plants of the Forest",
+      "description": "Traditional knowledge of 47 medicinal plants and their applications",
+      "content": "The forest provides healing for body and spirit... [encrypted knowledge]",
+      "culturalSignificance": "Community health and spiritual practice",
+      "accessLevel": "restricted",
+      "requiresFPIC": true,
+      "boundaryType": "healing_plants"
+    }
+  }
+}
